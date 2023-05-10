@@ -1,0 +1,20 @@
+#chatBox, #listBox {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 200px;
+  max-height: 400px;
+}
+#chatBox:focus-within{
+  font-weight: bold;
+}
+
+.nav-link.active, p {
+  background: rgba(0,0,255,.1);
+}
+span {
+  float: right;
+}
+span:hover {
+  background-color: rgba(247, 4, 4, 0.39);
+  cursor: pointer;
+}
